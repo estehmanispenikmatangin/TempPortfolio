@@ -1,0 +1,7 @@
+{ 
+    "homepage": "https://estehpenikmatangin.github.io/TempPortofolio/",
+    "scripts":{
+        "predeploy" : "yarn run build",
+        "deploy" : "gh-pages - d build"
+    }
+}
